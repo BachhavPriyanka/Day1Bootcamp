@@ -1,0 +1,12 @@
+i=10
+j=100
+range=$((v-u+1))
+a=$(($(($RANDOM%$range))+i))
+b=$(($(($RANDOM%$range))+i))
+c=$(($(($RANDOM%$range))+i))
+d=$(($(($RANDOM%$range))+i))
+e=$(($(($RANDOM%$range))+i))
+sum=$(($a+$b+$c+$d+$e))
+average=$(($sum/5))
+echo "Sum = " $sum
+echo "Average = " $average
